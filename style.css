@@ -1,9 +1,17 @@
 body {
-    background-color: #b410e6;
+    background-color: #ffffff;
 }
 
-.text {
-    width: 30rem;
+.hero{
+    height: 100vh;
+    color:#ffffff;
+    background-image: url("img/dirt_light_minecraft_wallpaper_by_warhorse556_by_warhorse556_ddm1mdh-pre.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 7rem;
     text-align: center;
+    text-shadow: 0, 2px, 8px, rgba(0, 0, 0, 0.2)
 }
-

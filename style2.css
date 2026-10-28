@@ -9,10 +9,43 @@ body { /* finds a specific html element and applies style to it */
     background-color:#4f69ff
 }
 
+.hero{
+    height: 100vh; /* stands for viewport height, how tall the webpage is. no matter what you view the website on, the page will take up 100 percent of the screen. */
+    color:white;
+    background-image: url("img/dirt_light_minecraft_wallpaper_by_warhorse556_by_warhorse556_ddm1mdh-pre.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.hero-content{
+    width: 85rem;
+    padding: 2rem;
+}
+
+.hero h1 { /* this targets the first h1 within .hero */
+    font-size: 7rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 1);
+}
+.hero p{
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    text-shadow: 0 2px 8px rgba(255, 255, 255, 0.8)
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.4rem 3.2rem;
+    font-size: 2rem;
+    background-color: #ff4f9a
+    
+}
+
 div{ /* selects every div element in the html file */
     width: 30rem; /* 1 rem = 10 px*/
     height: 55rem;
-    background-color:#962626;
     margin: 5rem; /* margin is space between elements*/
 }
 
