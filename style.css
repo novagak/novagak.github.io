@@ -1,17 +1,52 @@
-body {
-    background-color: #ffffff;
+html, body, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.hero{
+body {
+    background-color: #000c61;
+    font-weight: 400;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     height: 100vh;
     color:#ffffff;
-    background-image: url("img/dirt_light_minecraft_wallpaper_by_warhorse556_by_warhorse556_ddm1mdh-pre.jpg");
+    background-image: url("traveller 2.jpg");
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 }
 
+.hero-content {
+    width: 85rem;
+    padding: 2rem;
+}
+
 .hero h1 {
+    margin-bottom: 1rem;
     font-size: 7rem;
-    text-align: center;
-    text-shadow: 0, 2px, 8px, rgba(0, 0, 0, 0.2)
+    text-shadow: 0, 2px, 8px, rgb(255, 255, 255)
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.4rem 2.6rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5rem;
+    background-color:#00052c;
+    color:#ffffff;
+}
+
+.page {
+    color:#ffffff;
 }
