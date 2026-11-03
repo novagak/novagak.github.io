@@ -5,8 +5,34 @@ html, body, * {
 }
 
 body {
-    background-color: #000c61;
+    background-color: rgb(0, 5, 44);
+    font-family: 'M PLUS U', sans-serif;
     font-weight: 400;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color:rgb(0, 5, 44);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 5vh;
+    background-image: url("traveller 2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.navbar li {
+    float: left;   
 }
 
 .hero {
@@ -14,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: 95vh;
     color:#ffffff;
     background-image: url("traveller 2.jpg");
     background-size: cover;
@@ -28,6 +54,7 @@ body {
 }
 
 .hero h1 {
+    font-weight: 250;
     margin-bottom: 1rem;
     font-size: 7rem;
     text-shadow: 0, 2px, 8px, rgb(255, 255, 255)
@@ -43,10 +70,37 @@ body {
     font-size: 1.2rem;
     text-decoration: none;
     border-radius: 5rem;
-    background-color:#00052c;
+    background-color:rgb(0, 5, 44);
     color:#ffffff;
 }
 
-.page {
+.btn:hover {
+    background-color:#010844;
+    transition: background-color 0.3s ease;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    color:#ffffff;
+}
+
+.list {
+    text-align: left;
+}
+
+.header {
+    font-size: 3rem;
+}
+
+.trivia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
     color:#ffffff;
 }

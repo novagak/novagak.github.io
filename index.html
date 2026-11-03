@@ -1,39 +1,64 @@
 <html lang="en">
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+U:wght@100..900&display=swap');
+</style>
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello im noah</title>
+    <title>if ur reading this its too late</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about-me">about me</a></li>
+            <li><a href="#trivia">trivia</a></li>
+        </ul>
+    </nav>
+
     <section class="hero">
         <div class="hero-content">
-            <h1 class = "hero-content-text">noah</h1> <!-- only 1 h1 tag per page -->
-            <h2 class = "hero-content-text">that is my name</h2>
-            <a href="https://www.destinypedia.com/Striker" target="_blank" class="btn">this is the greatest subclass of all time</a>
+            <h1>noah</h1> <!-- only 1 h1 tag per page -->
+            <h2>that is my name</h2>
+            <a href="https://www.youtube.com/watch?v=ZSWN-VP0lD8" target="_blank" class="btn">this was the greatest game of all time</a>
         </div>
     </section>
      
-    <section class="page">
-        <div class="page-content">
-            <p class="page-content-text">paragraph stand in</p>
-            <button>button that does nothing</button>
-            <ul class="page-content-text">
-                <li>1</li> <!--this line is a child of the ul element-->
-                <li>2</li>
-                <li>3</li>
-            </ul>
-            <ol class="page-content-text">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ol>               
+    <section class="about-me" id="about-me">
+        <div class="about-me-content">
+            <h2 class="header">about me</h2>
+            <p>hi my name is noah and i really like video games. my top 3 favorite games would probably go something like:</p>
+            <ol class="list">
+                <li>destiny</li>
+                <li>persona 5 royal</li>
+                <li>the binding of isaac: rebirth</li>
+            </ol>
         </div>
-     
+
+        <div class="about-me-image">
+            <img src="destiny.gif" alt="Destiny 2 cover animation">
+        </div>
     </section>
 
+    <section class="trivia" id="trivia">
+        <div class="trivia-image">
+            <img src="kd.gif" alt="Kevin Durant celebrating">
+        </div>
+
+        <div class="trivia-content">
+            <h2 class="header">other trivia</h2>
+            <ul class="list">
+                <li>kevin durant is my favorite basketball player</li>
+                <li>my least favorite musical artist is bbno$</li>
+                <li>sharks were on earth about 40 million years before trees</li>
+            </ul>
+        </div>
+
+    </section>
 </body>
 
 </html>
